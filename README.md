@@ -31,3 +31,6 @@ PORT=3000
 After you configure the `.env` you can run the `docker-compose` command.
 `docker-compose up -d`.
 This will create two docker instances, one for the node api and the other for the mongodb instance.
+
+## Running tests
+Run `yarn test`
