@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "engines": {
+    "node": "14.15.1"
+  }
   "scripts": {
     "dev": "nodenv -E .env src/infra/server.js",
     "start": "node src/infra/server.js",
